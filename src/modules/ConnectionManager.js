@@ -104,7 +104,6 @@ export function addConnection(id_output, id_input, output_class, input_class) {
  */
 export function updateConnectionNodes(id) {
 
-  // Aquí nos quedamos;
   const idSearch = 'node_in_'+id;
   const idSearchOut = 'node_out_'+id;
   var line_path = this.line_path/2;
